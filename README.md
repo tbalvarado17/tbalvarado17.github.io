@@ -38,7 +38,7 @@
     <h1>Our Shared Calendar</h1>
 
     <iframe
-        src="http://google.com/"
+        src="https://calendar.google.com/calendar/u/0/r/month"
         loading="lazy">
     </iframe>
 
