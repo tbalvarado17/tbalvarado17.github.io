@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gradison Calendar</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: 65CBEB;
-            margin: 20px;
-            border: 5px solid #333333; /* Thickness, line style, and hex color code */
-            margin: 0;                /* Prevents gaps between the border and screen edge */
-            padding: 20px;             /* Creates space between the border and your content */
-            }
+            margin: 40px;
+            background: #65CBEB;
         }
+
+        h1 {
+            text-align: center;
+        }
+
+        .calendar-container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.15);
+        }
+
         iframe {
-            width: 90%;
+            width: 100%;
             height: 700px;
             border: 0;
-            background-color: 65CBEB;
         }
     </style>
 </head>
 <body>
-<!-- Place at the very top of your <body> -->
-    
+
 <div class="calendar-container">
-    
     <h1>Welcome to Camp Gradison at Torch Lake!</h1>
     
-    <h1>(Picture slideshow here of photos)</h1>
-
     <h1><img src="IMG_0016.JPG" width="500" height="500"></h1>
     <h1><img src="IMG_0024.JPG" width="800" height="600"></h1>
     <h1><img src="IMG_0039.JPG" width="500" height="600"></h1>
     <h1><img src="IMG_4088.JPG" width="500" height="600"></h1>
 
 
-    <h1>Gradison Torch Lake Shared Calendar</h1>
-
+    
+    <h1>Shared Calendar</h1>
     <iframe
         src="https://calendar.google.com/calendar/embed?src=802c89afb682d9dd4c980ca252ea077cd63e4ebb1567a5963a0b2c11cfcfa6f6@group.calendar.google.com">
     </iframe>
